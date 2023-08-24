@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+    border-bottom: 1px grey solid;
+}
+h2 {
+    margin-left: 7%;
+}
+
+.grid_1_2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-gap: 5%
+}
+.grid_1_2 h3,
+.grid_1_2 p {
+    text-align: start;
+}
+
+.grid_1_2 img {
+    width: 500px;
+    height: auto; 
+}
+.img {
+    border: black solid 2px;
+    margin: 5%;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    border: grey 1px solid;
+}
